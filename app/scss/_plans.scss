@@ -1,9 +1,9 @@
 .plans {
     background: url('../images/plans-bg.png') bottom no-repeat;
     background-size: cover;
+    padding-bottom: 45px;
 
     &__wrapper {
-        margin-bottom: 30px;
         padding-top: 50px;
         padding-bottom: 120px;
         background-color: rgba(255, 255, 255, .49);
@@ -14,9 +14,6 @@
         font-size: 77px;
         color: #723b6e;
         text-transform: uppercase;
-    }
-
-    &__list {
     }
 
     &__item {
@@ -32,7 +29,7 @@
         font-size: 126px;
         letter-spacing: -0.02em;
         min-width: 500px;
-        padding-left: 70px;
+        padding-left: 50px;
 
         &::before {
             position: absolute;
@@ -41,8 +38,7 @@
             font-size: 36px;
             color: #ffffff;
             left: 0;
-            top: 50%;
-            transform: translateY(-50%);
+            top: 55px;
         }
 
         sup {

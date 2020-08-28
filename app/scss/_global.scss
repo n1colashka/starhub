@@ -22,6 +22,7 @@ img {
 
 ul {
     padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -71,8 +72,7 @@ p {
         height: 15px;
         background-color: #ffffff;
         border-radius: 50%;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 8px;
     }
 
     &__item--1 {
@@ -88,4 +88,20 @@ p {
     &__item--3 {
         right: 25%;
     }
+}
+
+.navigation {
+    
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        margin-right: 60px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
 }

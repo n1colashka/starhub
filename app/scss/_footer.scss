@@ -1,0 +1,93 @@
+.footer {
+    background: url('../images/footer-bg.png') bottom no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    color: #ffffff;
+
+    &__inner {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 60px;
+        padding-bottom: 45px;
+        border-bottom: 1px solid #fff;
+        margin-bottom: 30px;
+    }
+
+    &__logo {
+        @include font('stern-bold');
+        font-size: 48px;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+
+    &__services {
+        margin-right: 70px;
+    }
+
+    &__services-title {
+        @include font('sitka-bold');
+        font-size: 24px;
+        letter-spacing: -0.02em;
+        color: #472377;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+
+    &__services-item {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    &__contacts {
+        @include font('helvetica-light');
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    &__contacts-content {
+        display: flex;
+        align-items: center;
+    }
+
+    &__contacts-item {
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+    &__title {
+        @include font('sitka-bold');
+        font-size: 26px;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        margin-bottom: 45px;
+
+        span {
+            color: #e2a6fb;
+        }
+    }
+
+    &__copy {
+        @include font('poppins');
+        font-size: 14px;
+        color: #472377;
+        margin-top: 55px;
+        align-self: flex-start;
+    }
+}
+
