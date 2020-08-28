@@ -1,7 +1,33 @@
 .header {
+    position: relative;
     color: #ffffff;
     background: url('../images/header-bg-bottom.png') bottom no-repeat,
+        url('../images/header-bg.png') bottom -170px left / cover no-repeat,
         url('../images/header-bg-right.png') top 140px right -20px no-repeat;
+
+    &::before {
+        position: absolute;
+        content: "";
+        background: linear-gradient(to right, rgba(94,10,158,1) 0%, rgba(255,255,255,0) 100%);
+        z-index: -1;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: .14;
+    }
+
+    &::after {
+        position: absolute;
+        content: 'context';
+        @include font('stern-bold');
+        right: 40px;
+        bottom: 0;
+        font-size: 165px;
+        letter-spacing: -0.02em;
+        -webkit-text-stroke: 2px rgba(255, 255, 255, .14);
+        color: transparent;
+        line-height: 165px;
+    }
 
     &__panel {
         display: flex;
