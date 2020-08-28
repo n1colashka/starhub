@@ -15,5 +15,5 @@ const cleanCSS = require('gulp-clean-css');
             .pipe(rename({
                 suffix: '.min'
             }))
-            .pipe(gulp.dest('app/css'));
+            .pipe(gulp.dest('dist/css'));
     };
