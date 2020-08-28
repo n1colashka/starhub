@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const concat = require('gulp-concat');
 
 const vendorsScripts = [
-    'node_modules/jquery/dist/jquery.min.js'
+    // 'node_modules/jquery/dist/jquery.min.js'
 ];
 
 module.exports = function vendors(cb) {

@@ -12,6 +12,6 @@ const vendors = require('./gulp/vendors'),
     html = require('./gulp/html');
 
 
-const build = gulp.parallel(html, styles, scripts, vendors, css-vendors, imageWebp, imageMinify, fonts);
+const build = gulp.parallel(html, styles, scripts, vendors, cssVendors, imageWebp, imageMinify, fonts);
 
 exports.default = gulp.series(clean, build, serve);

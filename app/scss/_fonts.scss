@@ -1,9 +1,69 @@
 @font-face {
-  font-family: "Montserrat Black";
-  src: url("../fonts/Montserrat-Black.woff2") format("woff2"),
-  url("../fonts/Montserrat-Black.woff") format("woff"),
-  url("../fonts/Montserrat-Black.ttf") format("opentype");
+  font-family: "HelveticaNeueCyr-Light";
+  src: url("../fonts/HelveticaNeueCyr-Light.woff2") format("woff2"),
+  url("../fonts/HelveticaNeueCyr-Light.woff") format("woff"),
+  url("../fonts/HelveticaNeueCyr-Light.ttf") format("opentype");
   font-style: normal;
-  font-weight: 900;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr-Roman";
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+  url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff"),
+  url("../fonts/HelveticaNeueCyr-Roman.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr-Medium";
+  src: url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"),
+  url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff"),
+  url("../fonts/HelveticaNeueCyr-Medium.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+  url("../fonts/Poppins-Regular.woff") format("woff"),
+  url("../fonts/Poppins-Regular.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sitka-Small";
+  src: url("../fonts/Sitka-Small.woff2") format("woff2"),
+  url("../fonts/Sitka-Small.woff") format("woff"),
+  url("../fonts/Sitka-Small.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sitka-Small-Bold";
+  src: url("../fonts/Sitka-Small-Bold.woff2") format("woff2"),
+  url("../fonts/Sitka-Small-Bold.woff") format("woff"),
+  url("../fonts/Sitka-Small-Bold.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Stern-Typeface-Bold";
+  src: url("../fonts/Stern-Typeface-Bold.woff2") format("woff2"),
+  url("../fonts/Stern-Typeface-Bold.woff") format("woff"),
+  url("../fonts/Stern-Typeface-Bold.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
   font-display: swap;
 }

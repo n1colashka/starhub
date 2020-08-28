@@ -7,12 +7,13 @@ const ttf2woff = require('gulp-ttf2woff'),
 
 module.exports = function fonts() {
 
-    gulp.src('app/fonts/**/*')
-        .pipe(ttf2woff())
-        .pipe(gulp.dest('app/fonts/'));
-    gulp.src('app/fonts/**/*.*')
-        .pipe(ttf2woff2())
-        .pipe(gulp.dest('app/fonts/'))
+    // gulp.src('app/fonts/*.ttf')
+    //     .pipe(ttf2woff())
+    //     .pipe(gulp.dest('app/fonts/'));
+    // gulp.src('app/fonts/*.ttf')
+    //     .pipe(ttf2woff2())
+    //     .pipe(gulp.dest('app/fonts/'));
     return gulp.src('app/fonts/**/*')
         .pipe(gulp.dest('dist/fonts/'));
 };
+

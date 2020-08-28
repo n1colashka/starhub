@@ -1,0 +1,37 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="1969.5px" height="2823.5px">
+<defs>
+<filter id="Filter_0">
+    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="0.68" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+</filter>
+<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+  <stop offset="0%" stop-color="rgb(215,215,215)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(255,255,255)" stop-opacity="1" />
+</linearGradient>
+<filter id="Filter_1">
+    <feFlood flood-color="rgb(35, 1, 78)" flood-opacity="1" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+</filter>
+
+</defs>
+<path fill-rule="evenodd"  fill-opacity="0" fill="rgb(45, 45, 54)"
+ d="M18.000,-0.000 L1938.000,-0.000 L1938.000,1.000 L18.000,1.000 L18.000,-0.000 Z"/>
+<g filter="url(#Filter_0)">
+<path fill-rule="evenodd"  opacity="0.49" fill="rgb(41, 41, 59)"
+ d="M0.000,2057.000 L1968.000,2057.000 L1968.000,2822.000 L0.000,2822.000 L0.000,2057.000 Z"/>
+</g>
+<path fill="url(#PSgrad_0)"
+ d="M0.000,2057.000 L1968.000,2057.000 L1968.000,2822.000 L0.000,2822.000 L0.000,2057.000 Z"/>
+<g filter="url(#Filter_1)">
+<path fill-rule="evenodd"  stroke="rgb(243, 121, 224)" stroke-width="3px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M122.953,11.988 L142.737,26.123 L166.254,19.805 L158.926,43.169 L172.067,63.698 L147.753,64.001 L132.358,83.009 L124.660,59.833 L102.005,51.050 L121.560,36.422 L122.953,11.988 "/>
+</g>
+<path fill="none" stroke="rgb(243, 121, 224)" stroke-width="3px" stroke-linecap="butt" stroke-linejoin="miter"
+ d="M122.953,11.988 L142.737,26.123 L166.254,19.805 L158.926,43.169 L172.067,63.698 L147.753,64.001 L132.358,83.009 L124.660,59.833 L102.005,51.050 L121.560,36.422 L122.953,11.988 "/>
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 0.86003090633479, 0, 0, 0.8593062501494,154.03702188447, 62.6594865092333)" font-size="55.859px"><tspan font-size="55.859px" font-family="SternTypeface" font-weight="bold" fill="#FFFFFF">starhub</tspan></text>
+</svg>

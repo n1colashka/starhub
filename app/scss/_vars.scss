@@ -1,0 +1,38 @@
+@mixin font($name) {
+
+  @if $name == 'helvetica-light' {
+    font-family: 'HelveticaNeueCyr-Light', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+  }
+
+  @if $name == 'helvetica' {
+    font-family: 'HelveticaNeueCyr-Roman', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+
+  @if $name == 'helvetica-medium' {
+    font-family: 'HelveticaNeueCyr-Medium', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+
+  @if $name == 'poppins' {
+    font-family: 'Poppins-Regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+
+  @if $name == 'sitka' {
+    font-family: 'Sitka-Small', Palatino, serif;
+    font-weight: 400;
+  }
+
+  @if $name == 'sitka-bold' {
+    font-family: 'Sitka-Small-Bold', Palatino, serif;
+    font-weight: 700;
+  }
+
+  @if $name == 'stern-bold' {
+    font-family: 'Stern-Typeface-Bold', Palatino, serif;
+    font-weight: 700;
+  }
+
+}
