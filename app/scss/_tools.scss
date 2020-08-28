@@ -3,9 +3,7 @@
     z-index: -2;
     background: url('../images/header-bg.png') bottom / cover no-repeat;
     padding-top: 90px;
-
-    &__inner {
-    }
+    padding-bottom: 30px;
 
     &__head {
         max-width: 1170px;
@@ -69,9 +67,6 @@
         }
     }
 
-    &__img {
-    }
-
     &__item-title {
         font-size: 32px;
         color: #29293b;
@@ -80,6 +75,7 @@
     }
 
     &__bar {
+        margin-top: 40px;
     }
 }
 
