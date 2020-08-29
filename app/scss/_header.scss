@@ -34,11 +34,7 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        padding: 10px 0;
-    }
-
-    &__logo {
-        margin-left: 25px;
+        padding: 30px 0;
     }
 
     &__panel-right {
@@ -64,7 +60,7 @@
 
     &__hero {
         margin-left: 50px;
-        padding: 60px 0;
+        padding: 55px 0;
     }
 
 } 
@@ -107,5 +103,226 @@
 
     &__btn {
         letter-spacing: -0.02em;
+    }
+
+    &__mobile-title {
+        display: none;
+        @include font('sitka-bold');
+        text-align: center;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        margin-bottom: 45px;
+
+        span {
+            color: #e2a6fb;
+        }
+    }
+}
+
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background: linear-gradient(to right, rgba(134,91,162,1) 0%, rgba(166,98,158,1) 100%);
+    background-color: #8a5ca1;
+    padding: 0 30px;
+    transform: translateX(100%);
+    transition: .3s ease;
+    overflow-y: scroll;
+
+    &__panel {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 35px;
+        margin-top: -20px;
+
+        .logo {
+            margin: auto;
+            margin-top: 30px;
+        }
+    }
+
+    &__services {
+        position: relative;
+        background-color: #361470;
+        padding: 30px;
+        border-radius: 10px;
+        &::before {
+            position: absolute;
+            content: "";
+            width: 111px; 
+            height: 107px;
+            background: url('../images/note-purple.svg') center / cover no-repeat;
+            top: -47px;
+            left: 5px;
+            transform: rotate(180deg);
+        }
+    }
+
+    &__services-right {
+        text-align: right;
+    }
+
+    &__services-title {
+        display: inline-block;
+        color: #361470;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    &__services-close {
+        font-size: 12px;
+        display: inline-block;
+        margin-left: auto;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    &__services-item {
+        position: relative;
+        font-size: 16px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        color: #e2a6fb;
+    }
+
+    &__services-link {
+        position: relative;
+        display: inline-block;
+        padding-left: 20px;
+        transition: .3s ease;
+
+        &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url('../images/star-pink.svg') center no-repeat;
+            width: 15px;
+            height: 15px;
+            background-size: cover;
+            transition: opacity .3s ease;
+            opacity: 0;
+        }
+        &:hover {
+            text-decoration: underline;
+            color: #ffffff;
+
+            &::before {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__services-btn-wrapper {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    &__services-btn {
+        border-radius: 50px;
+        color: #e2a6fb;
+    }
+
+    &__partners {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__social {
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    &__contacts {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    &__contacts-item {
+        display: inline-block;
+        margin-right: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__caption {
+        @include font('stern-bold');
+        font-size: 36px;
+        color: #ffffff;
+        opacity: .3;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+
+    &__title {
+        font-size: 16px;
+        @include font('sitka-bold');
+        text-align: center;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+
+        span {
+            color: #e2a6fb;
+        }
+    }
+
+    &__btn {
+        display: none;
+        width: 35px;
+        height: 30px;
+        margin-left: auto;
+        z-index: 100;
+    }
+
+    &__line {
+        position: relative;
+        width: 35px;
+        height: 4px;
+        margin-top: 30px;
+        background-color: #fff;
+        &::before,
+        &::after {
+            position: absolute;
+            content: "";
+            left: 0;
+            width: 35px;
+            height: 4px;
+            background-color: #fff;
+        }
+
+        &::before {
+            top: 12px;
+        }
+
+        &::after {
+            bottom: 12px;
+        }
+    }
+}
+
+.menu--active {
+    transform: translateX(0);
+}
+
+.menu-partners {
+
+    &__item {
+        margin-top: 20px;
+    }
+
+    &__img {
     }
 }

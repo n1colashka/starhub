@@ -66,7 +66,7 @@
     &__list {
         position: relative;
         background-color: #ffffff;
-        padding: 35px 40px 25px;
+        padding: 35px 70px 25px 45px;
         border-radius: 10px;
 
         &::before {
@@ -85,19 +85,21 @@
         font-size: 24px;
         color: #1e0844;
         position: relative;
-        padding-left: 25px;
-        margin-bottom: 20px;
+        padding-left: 30px;
+        margin-bottom: 15px;
 
         &::before {
             position: absolute;
             content: "";
             left: 0;
-            top: 15px;
+            top: 9px;
             width: 11px;
             height: 11px;
             background: url('../images/list-point.png') center no-repeat;
         }
     }
 
-
+    &__mobile-text {
+        display: none;
+    }
 }

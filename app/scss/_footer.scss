@@ -21,10 +21,10 @@
     }
 
     &__logo {
-        @include font('stern-bold');
-        font-size: 48px;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
+        padding: 0;
+        &::before {
+            display: none;
+        }
     }
 
     &__bottom {
@@ -88,6 +88,17 @@
         color: #472377;
         margin-top: 55px;
         align-self: flex-start;
+    }
+
+    &__mobile-title {
+        display: none;
+        @include font('stern-bold');
+        font-size: 36px;
+        color: #ffffff;
+        opacity: .3;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 20px;
     }
 }
 
