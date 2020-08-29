@@ -216,6 +216,12 @@
     }
 }
 
+@media(min-width: 899px) {
+    .menu {
+        display: none;
+    }
+}
+
 @media(max-width: 900px) {
     .container {
         padding: 0 30px;
@@ -531,6 +537,13 @@
         padding: 15px 15px 10px;
     }
 
+    .menu {
+        &__services-btn {
+            padding: 15px 30px 10px;
+            font-size: 16px;
+        }
+    }
+
     .plans {
         &__btn {
             font-size: 20px;
@@ -605,6 +618,13 @@
     .btn {
         font-size: 12px;
         padding: 15px 10px 10px;
+    }
+
+    .menu {
+        &__services-btn {
+            padding: 15px 30px 10px;
+            font-size: 16px;
+        }
     }
 
 
